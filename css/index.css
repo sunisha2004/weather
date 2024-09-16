@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url(../img/backimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(135, 171, 222);
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 34px;
+    
+}
+#main2{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+      
+input {
+    background-color: honeydew;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    color: blue;
+    font-size: 21px;
+}
+
+input:focus {
+    outline: none;
+}
+button{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background: navy;
+    color: white;
+}
+#maindiv{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 2rem;
+    color: navy;
+
+}
+#details{
+    margin-top: 20px;
+    font-size: 20px;
+    color: navy;
+    font-weight: bold;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    color: navy;
+}
+.main_temp{
+
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.descptn{
+    font-size: 20px;
+    font-weight: bold;
+}
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+}

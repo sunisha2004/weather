@@ -39,11 +39,27 @@ async function weather() {
                 </div>
             </div>
         `;
+        const weatherCondition = data.weather[0].main.toLowerCase();
+        console.log("Weather Condition:", weatherCondition); 
+        
+        switch (weatherCondition) {
+            case 'clouds':
+                document.getElementById("body").style.backgroundImage = "url(../img/cloud.jpg)";
+                break;
+            case 'clear':
+                document.getElementById("body").style.backgroundImage = "url(../img/clrsky.jpg)";
+                break;
+            case 'rain':
+                document.getElementById("body").style.backgroundImage = "url(../img/rain.avif)";
+                break;
+            default:
+                document.getElementById("body").style.backgroundImage = "url(../img/imgsky.jpg)";
+                break;
         }
+      
     }
-    catch(error){
-        console.log(error)
+ } catch (error) {
+        console.log("Error occurred:", error);
     }
-
 }
 
